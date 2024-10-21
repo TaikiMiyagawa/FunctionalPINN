@@ -3,4 +3,4 @@ This is the official implementation of physics-informed neural networks for func
 
 WIP
 
-Will be opend by mid November.
+Will be opend by mid November. Stay tuned!!
