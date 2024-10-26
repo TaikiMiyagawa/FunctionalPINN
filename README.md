@@ -3,7 +3,7 @@
 
 <p style="font-size: 25px;">
     <span style="color:red">
-        Work in progress! Please use ./full_code for now.
+        🌟Work in progress! Please use ./full_code for now.🌟
     </span>
 </p>
 
@@ -15,7 +15,7 @@ This is the official implementation of physics-informed neural networks (PINNs) 
 
 - Full paper: please see [`./fullpaper.pdf`](./full_paper.pdf)
 - Full paper at OpenReview: TBA
-- arXiv preprint: TBA
+- arXiv preprint: https://arxiv.org/abs/2410.18153
 - bibtex: please see Citation at the bottom of this page.
 
 # Table of Contents <!-- omit in toc -->
@@ -66,7 +66,7 @@ TODO
 # 5. Citation
 
 ```
-TBA (Will be opened November or December 2024)
+TBA (Will be open in November or December 2024)
 ```
 
 
