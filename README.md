@@ -1,19 +1,17 @@
-# Functional PINN <!-- omit in toc -->
-<!-- https://qiita.com/eyuta/items/b1a53f3da8c5f8e7f41d  https://github.com/paperswithcode/releasing-research-code   -->
+# 😎 Functional PINN [NeurIPS 2024] 😎 <!-- omit in toc -->
+<!-- 
+Table of contents: https://qiita.com/eyuta/items/b1a53f3da8c5f8e7f41d  
+NeurIPS code guidelines: https://github.com/paperswithcode/releasing-research-code   
+-->
 
-<p style="font-size: 25px;">
-    <span style="color:red">
-        🌟Work in progress! Please use ./full_code for now.🌟
-    </span>
-</p>
+### 🌟Work in progress! Please use ./full_code for now.🌟 <!-- omit in toc -->
 
 This is the official implementation of physics-informed neural networks (PINNs) for functional differential equations (Functional PINN) proposed in
 
-<p style="font-size: 20px;">
-    "Physics-informed Neural Networks for Functional Differential Equations: Cylindrical Approximation and Its Convergence Guarantees" (NeurIPS 2024).
-</p>
 
-- Full paper: please see [`./fullpaper.pdf`](./full_paper.pdf)
+### ["Physics-informed Neural Networks for Functional Differential Equations: Cylindrical Approximation and Its Convergence Guarantees" (NeurIPS 2024).](./full_paper.pdf) <!-- omit in toc -->
+
+- Full paper: [`./fullpaper.pdf`](./full_paper.pdf)
 - Full paper at OpenReview: TBA
 - arXiv preprint: https://arxiv.org/abs/2410.18153
 - bibtex: please see Citation at the bottom of this page.
@@ -29,15 +27,16 @@ This is the official implementation of physics-informed neural networks (PINNs) 
 
 # 1. Introduction: Overall architecture
 
-The overall architecture and structure of the PINN are shown in the following images.
-We first approximate functional differential equations (FDEs) using the cylindrical approximation, leading to high-dimensional PDEs.
-We implement these PDEs.
+The overall architecture is shown in Figure 1.
+We first approximate functional differential equations (FDEs) using the cylindrical approximation, leading to high-dimensional PDEs (we implement these PDEs), which are then solved with PINNs (Figure 3).
 ![Overall architecture](./imgs/figure1.png)
 ![PINN](./imgs/figure3.png)
 
 # 2. Requirements
 
-Please see [`requirements.txt`](./requirements.txt) and run `$ pip install -r requirements.txt` to install exactly the same libraries used in our environment. Specifically, we used:
+TODO
+
+Please see [`requirements.txt`](./requirements.txt) and run `$ pip install -r requirements.txt` to install exactly the same libraries used in our environment. All the libraries, however, are not necessary if you just want to run `./train.py`. Specifically, we used:
 
 - Python 3.11
 - PyTorch 2.2.0
@@ -46,9 +45,12 @@ Please see [`requirements.txt`](./requirements.txt) and run `$ pip install -r re
 # 3. Training
 
 TODO
+
 `$ python train.py`
 
 # 4. Files and Directories
+
+TODO
 
 - [`./configs`](./configs)
 - [`./dataprocesses`](./dataprocesses)
@@ -74,5 +76,5 @@ TBA (Will be open in November or December 2024)
 # Todo
 - train.py
   - Delete multigpu
-  - Delete Optuna
+  - Delete Optuna stuff
   - Remove exp_phase = "tuning" and "stat"
