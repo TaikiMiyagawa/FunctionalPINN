@@ -12,7 +12,7 @@ This is the official implementation of physics-informed neural networks (PINNs) 
 ### ["Physics-informed Neural Networks for Functional Differential Equations: Cylindrical Approximation and Its Convergence Guarantees" (NeurIPS 2024).](./full_paper.pdf) <!-- omit in toc -->
 
 - Full paper: [`./fullpaper.pdf`](./full_paper.pdf)
-- Full paper at OpenReview: TBA
+- Full paper at OpenReview: https://openreview.net/forum?id=H5z0XqEX57
 - arXiv preprint: https://arxiv.org/abs/2410.18153
 - bibtex: please see Citation at the bottom of this page.
 
@@ -34,8 +34,6 @@ We first approximate functional differential equations (FDEs) using the cylindri
 
 # 2. Requirements
 
-TODO
-
 Please see [`requirements.txt`](./requirements.txt) and run `$ pip install -r requirements.txt` to install exactly the same libraries used in our environment. All the libraries, however, are not necessary if you just want to run `./train.py`. Specifically, we used:
 
 - Python 3.11
@@ -44,13 +42,9 @@ Please see [`requirements.txt`](./requirements.txt) and run `$ pip install -r re
 
 # 3. Training
 
-TODO
-
 `$ python train.py`
 
 # 4. Files and Directories
-
-TODO
 
 - [`./configs`](./configs)
 - [`./dataprocesses`](./dataprocesses)
@@ -68,13 +62,12 @@ TODO
 # 5. Citation
 
 ```
-TBA (Will be open in November or December 2024)
+@inproceedings{
+miyagawa2024physicsinformed,
+title={Physics-informed Neural Networks for Functional Differential Equations: Cylindrical Approximation and Its Convergence Guarantees},
+author={Taiki Miyagawa and Takeru Yokota},
+booktitle={The Thirty-eighth Annual Conference on Neural Information Processing Systems},
+year={2024},
+url={https://openreview.net/forum?id=H5z0XqEX57}
+}
 ```
-
-
-
-# Todo
-- train.py
-  - Delete multigpu
-  - Delete Optuna stuff
-  - Remove exp_phase = "tuning" and "stat"
