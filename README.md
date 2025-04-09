@@ -4,7 +4,7 @@ Table of contents: https://qiita.com/eyuta/items/b1a53f3da8c5f8e7f41d
 NeurIPS code guidelines: https://github.com/paperswithcode/releasing-research-code   
 -->
 
-### 🌟Work in progress! Please use ./full_code for now.🌟 <!-- omit in toc -->
+### 🌟Work in progress!! Please use ./full_code for now.🌟 <!-- omit in toc -->
 
 This is the official implementation of physics-informed neural networks (PINNs) for functional differential equations (Functional PINN) proposed in
 
